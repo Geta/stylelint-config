@@ -1,0 +1,20 @@
+{
+  "name": "geta-stylelint-config",
+  "version": "1.0.0",
+  "description": "generic stylelint config used by getas projects",
+  "main": "index.js",
+  "repository": "https://github.com/Geta/stylelint-config.git",
+  "author": "Eirik Horvath <eirik@geta.no>",
+  "license": "MIT",
+  "private": false,
+  "prettier": "geta-prettier-config",
+  "dependencies": {
+    "stylelint": "^11.1.1",
+    "stylelint-config-recommended-scss": "^4.0.0",
+    "stylelint-scss": "^3.12.1"
+  },
+  "devDependencies": {
+    "geta-prettier-config": "^1.0.0",
+    "prettier": "^1.18.2"
+  }
+}
